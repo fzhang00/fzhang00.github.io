@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-13T16:23:57-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Make, Code, Have Fun</title><subtitle>This site was created to collect all of our project done in our coding class. </subtitle><entry><title type="html">MakeCode Quick Start</title><link href="http://localhost:4000/2020/09/12/MakeCode-quick-start.html" rel="alternate" type="text/html" title="MakeCode Quick Start" /><published>2020-09-12T00:00:00-04:00</published><updated>2020-09-12T00:00:00-04:00</updated><id>http://localhost:4000/2020/09/12/MakeCode-quick-start</id><content type="html" xml:base="http://localhost:4000/2020/09/12/MakeCode-quick-start.html">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open a browser and visit MakeCode micro:bit website&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://makecode.microbit.org/&quot;&gt;https://makecode.microbit.org/&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;You should see a screen like this: 
+ &lt;img src=&quot;/assets/makecode_home.png&quot; alt=&quot;MakeCode microbit homepage&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;MakeCode is a web application. The program gets loaded into your browser, and so are the projects that you created before. If you ever clear your browser’s cookie data, your projects will be lost. Therefore, remember to save your project into your local machine, or use GitHub.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A view on the IDE&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/makecode_microbit_ide.png&quot; alt=&quot;MakeCode microbit IDE&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Build some code and run simulation, and save your project&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/makecode_microbit_saveproject.png&quot; alt=&quot;MakeCode microbit save project&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pairing Microbit with PC, and Download your program&lt;/p&gt;
+
+    &lt;p&gt;If the microbit is not plugged in, you will be prompted to save your project. The project is saved into a .hex file.
+ &lt;img src=&quot;/assets/makecode_microbit_download_no_microbit.PNG&quot; alt=&quot;Download when microbit is not plugged in&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;After you plug a microbit into your PC, you will see a new drive shown up. That’s the microbit’s storage. One can also download an existing program (.hex file) to microbit by directly dragging the file, and drop it in microbit’s drive. In my case, that’s drive F:&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/microbit_drive.png&quot; alt=&quot;Microbit drive&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;Finally, in the code editor, we can pair our microbit, and download directly from the code editor. To pair, connect microbit, click the purple “Download” button, then select “Pair”&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/microbit_pair.png&quot; alt=&quot;Pair microbit in MakeCode&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;You will see a window pop up asking for permission to connect. Select the BBC microbit, then click connect. After that, you can click “Download” again, and your program will be directly download to the microbit.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/makecode_microbit_pair_device.png&quot; alt=&quot;Permission to pair&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How to open saved project&lt;/p&gt;
+
+    &lt;p&gt;Open a save project in MakeCode is easy. Just drag your hex file from your computer and drop it into the MakeCode coding area.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Open a browser and visit MakeCode micro:bit website</summary></entry></feed>
