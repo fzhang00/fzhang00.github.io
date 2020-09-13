@@ -3,7 +3,7 @@ layout: default
 title: MakeCode Quick Start
 ---
 
-1. Open a browser and visit MakeCode micro:bit website
+1. Open a Google Chrome browser and visit MakeCode micro:bit website
 
     [https://makecode.microbit.org/](https://makecode.microbit.org/)
 
