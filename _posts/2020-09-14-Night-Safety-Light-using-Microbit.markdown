@@ -62,7 +62,7 @@ Below is an example of a simple flow chart
 
 ## Build our code based on the flowchart design
 
-I will leave it to you to complete. But here are some of the blocks you can use:
+In this project, I'll ask you to use the ```While True``` block, instead of the built in ```Forever``` block, in order to practice our logical thinking. Here are some of the blocks:
 
 - While True Loop. Grap a ```while True...do...``` block from the ```Loops``` class
 
