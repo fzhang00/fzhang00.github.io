@@ -1,4 +1,178 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-13T16:27:50-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Make, Code, Have Fun</title><subtitle>This site was created to collect all of our project done in our coding class. </subtitle><entry><title type="html">MakeCode Quick Start</title><link href="http://localhost:4000/2020/09/12/MakeCode-quick-start.html" rel="alternate" type="text/html" title="MakeCode Quick Start" /><published>2020-09-12T00:00:00-04:00</published><updated>2020-09-12T00:00:00-04:00</updated><id>http://localhost:4000/2020/09/12/MakeCode-quick-start</id><content type="html" xml:base="http://localhost:4000/2020/09/12/MakeCode-quick-start.html">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-17T20:13:44-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Make, Code, Have Fun</title><subtitle>This site was created to collect all of our project done in our coding class. </subtitle><entry><title type="html">Night Safety Light with Microbit and MakeCode</title><link href="http://localhost:4000/projects/2020/09/14/Night-Safety-Light-using-Microbit.html" rel="alternate" type="text/html" title="Night Safety Light with Microbit and MakeCode" /><published>2020-09-14T00:00:00-04:00</published><updated>2020-09-14T00:00:00-04:00</updated><id>http://localhost:4000/projects/2020/09/14/Night-Safety-Light-using-Microbit</id><content type="html" xml:base="http://localhost:4000/projects/2020/09/14/Night-Safety-Light-using-Microbit.html">&lt;h1 id=&quot;night-safety-light&quot;&gt;Night Safety Light&lt;/h1&gt;
+
+&lt;p&gt;Living in Canada year round, we all know  what’s like in the winter. Sun goes down by 4-5pm. The street can be dark and slippery. Can we make a wearable device with Microbit to help us be safe in the dark?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/dark_street.jpg&quot; alt=&quot;Dark street&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;identify-what-features-do-you-want&quot;&gt;Identify what features do you want?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Flashing LED when it’s dark.&lt;/li&gt;
+  &lt;li&gt;Have an on/off button to save power&lt;/li&gt;
+  &lt;li&gt;Only turn on when walking?&lt;/li&gt;
+  &lt;li&gt;Display sensor measurement on button pressed?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;features-on-the-microbit&quot;&gt;Features on the Microbit&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Light sensor, range 0 to 255. 0 is complete dark. 255 is super bright.&lt;/li&gt;
+  &lt;li&gt;Acceleronmeter, tell us if we are moving.&lt;/li&gt;
+  &lt;li&gt;Buttons, to navigate among features, or turn on/off LED. Typical uses:
+    &lt;ul&gt;
+      &lt;li&gt;When button A is pressed&lt;/li&gt;
+      &lt;li&gt;When button B is pressed&lt;/li&gt;
+      &lt;li&gt;When button A+B are pressed together&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lets-know-the-sensors&quot;&gt;Let’s know the sensors&lt;/h2&gt;
+
+&lt;h3 id=&quot;leds-light-emitting-diode&quot;&gt;LEDs, Light Emitting Diode&lt;/h3&gt;
+
+&lt;p&gt;LEDs has become very common in our household. Usually the LEDs we saw are light bulb, like this one
+&lt;img src=&quot;https://www.premierltg.com/wp-content/uploads/2015/07/LED-bulbs.jpg&quot; alt=&quot;LED light bulb&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On Microbit they look like these:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://aws.robu.in/wp-content/uploads/2019/11/Surface-Mount-LED-2-1-314x252.jpg&quot; alt=&quot;Surface Mount LEDs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is short video introduing LEDs by Microbit. &lt;a href=&quot;https://youtu.be/jzwa-HegLk4&quot;&gt;YouTube Microbit LEDs&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;LEDs are small, effecient, bright, and don’t require much power&lt;/li&gt;
+  &lt;li&gt;LEDs lights up when a one way electrical current pass through it&lt;/li&gt;
+  &lt;li&gt;When we stop the electrical current, it takes time for the light to go away
+    &lt;ul&gt;
+      &lt;li&gt;This time is related to strength of ambient light&lt;/li&gt;
+      &lt;li&gt;Microbit measure the time it takes for the LEDs to go out, and use that to estimate ambient light.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here is another YouTube video that talks about using LED as light sensor. Have a look if you want to know more. They also shows a nice demonstration.
+&lt;a href=&quot;https://youtu.be/Gv6Ijam6yFY&quot;&gt;Sparkfun using LED as light sensor&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;design-our-program-with-flowchart&quot;&gt;Design our program with flowchart&lt;/h2&gt;
+
+&lt;p&gt;Before we start writing our code, we should first design our program. Creating a flow chart helps us to reduce bugs in our program, and also make it easier to spot them. We will do this step together in class.&lt;/p&gt;
+
+&lt;p&gt;Here are the basic element of flowchart
+&lt;img src=&quot;/assets/flowchart_element.png&quot; alt=&quot;flow chart&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Below is an example of a simple flow chart
+&lt;img src=&quot;/assets/night_light_flowchart.PNG&quot; alt=&quot;Project flow chart&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;build-our-code-based-on-the-flowchart-design&quot;&gt;Build our code based on the flowchart design&lt;/h2&gt;
+
+&lt;p&gt;I will leave it to you to complete. But here are some of the blocks you can use:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;While True Loop. Grap a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;while True...do...&lt;/code&gt; block from the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Loops&lt;/code&gt; class&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;Block&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;Python&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/while_true.png&quot; alt=&quot;while_true&quot; /&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/while_python.png&quot; alt=&quot;while_python&quot; /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For decision block, ie. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if...else...&lt;/code&gt;. Grab an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if...else...&lt;/code&gt; block from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Logic&lt;/code&gt; class&lt;/p&gt;
+
+    &lt;p&gt;Notice that you can expand or shink the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if...else...&lt;/code&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-&lt;/code&gt; sign. You can also find&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;Block&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;Python&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/if_else.png&quot; alt=&quot;if_else&quot; /&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/if_else_python.png&quot; alt=&quot;if_else_python&quot; /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To read estimated ambient light level, use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;light level&lt;/code&gt; block from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Input&lt;/code&gt; class&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;Block&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;Python&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/light_level_block.png&quot; alt=&quot;light_level_block&quot; /&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/light_level_python.png&quot; alt=&quot;light_level_python&quot; /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you want to add a button to your program, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;button (A) is pressed&lt;/code&gt; block from the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Input&lt;/code&gt; class&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;Block&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;Python&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/button_press_block.png&quot; alt=&quot;button_press_block&quot; /&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/button_press_python.png&quot; alt=&quot;button_press_python&quot; /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+
+    &lt;p&gt;&lt;strong&gt;Expand your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if...else...&lt;/code&gt; block to include button feature.&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;finishing-up&quot;&gt;Finishing Up&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Find a way to put Microbit on your backpack, or wear it on your wrist.&lt;/li&gt;
+  &lt;li&gt;Make a short video to demonstrate your work.
+    &lt;ul&gt;
+      &lt;li&gt;Present the problem we are trying to solve&lt;/li&gt;
+      &lt;li&gt;What the solution is.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are some ideas to make microbit wearable.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://makecode.microbit.org/projects/duct-tape-watch&quot;&gt;Duck tape watch&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://pxt.azureedge.net/blob/5ac0567b66ec994265b26239f6b36492afa612a6/static/mb/projects/duct-tape-watch.jpg&quot; alt=&quot;Duct tape watch&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://makecode.microbit.org/projects/watch/make&quot;&gt;Fabric wrist band&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://pxt.azureedge.net/blob/d017662f117ad6e46fa9b5f13dd21c44cda07295/static/mb/lessons/the-watch-1.png&quot; alt=&quot;Fabric wrist band&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="projects" /><category term="makecode microbit" /><summary type="html">Night Safety Light</summary></entry><entry><title type="html">MakeCode Quick Start</title><link href="http://localhost:4000/2020/09/12/MakeCode-quick-start.html" rel="alternate" type="text/html" title="MakeCode Quick Start" /><published>2020-09-12T00:00:00-04:00</published><updated>2020-09-12T00:00:00-04:00</updated><id>http://localhost:4000/2020/09/12/MakeCode-quick-start</id><content type="html" xml:base="http://localhost:4000/2020/09/12/MakeCode-quick-start.html">&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;Open a Google Chrome browser and visit MakeCode micro:bit website&lt;/p&gt;
 
