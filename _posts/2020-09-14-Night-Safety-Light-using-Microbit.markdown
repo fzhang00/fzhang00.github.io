@@ -38,7 +38,7 @@ On Microbit they look like these:
 
 ![Surface Mount LEDs](https://aws.robu.in/wp-content/uploads/2019/11/Surface-Mount-LED-2-1-314x252.jpg)
 
-Here is short video introduing LEDs by Microbit. [YouTube Microbit LEDs](https://youtu.be/jzwa-HegLk4)
+Here is short video introduing LEDs by Microbit. [YouTube Microbit LEDs](https://youtu.be/eRhlaXqT-0w)
 
 - LEDs are small, effecient, bright, and don't require much power
 - LEDs lights up when a one way electrical current pass through it
