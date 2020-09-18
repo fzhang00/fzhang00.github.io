@@ -68,7 +68,7 @@ I will leave it to you to complete. But here are some of the blocks you can use:
 
     | Block | Python |
     |:---:|:---:|
-    | ![while_true](/assets/while_true.png)  |![while_python](/assets/while_python.png) |
+    | ![while_true](/assets/while_true.PNG)  |![while_python](/assets/while_python.PNG) |
 
 - For decision block, ie. ```if...else...```. Grab an ```if...else...``` block from ```Logic``` class
 
@@ -76,19 +76,19 @@ I will leave it to you to complete. But here are some of the blocks you can use:
 
     | Block | Python |
     |:---:|:---:|
-    |![if_else](/assets/if_else.png)   |![if_else_python](/assets/if_else_python.png)|
+    |![if_else](/assets/if_else.PNG)   |![if_else_python](/assets/if_else_python.PNG)|
 
 - To read estimated ambient light level, use the ```light level``` block from ```Input``` class
 
     | Block | Python |
     |:---:|:---:|
-    |![light_level_block](/assets/light_level_block.png) |![light_level_python](/assets/light_level_python.png)|
+    |![light_level_block](/assets/light_level_block.PNG) |![light_level_python](/assets/light_level_python.PNG)|
 
 - If you want to add a button to your program, use ```button (A) is pressed``` block from the ```Input``` class
 
     | Block | Python |
     |:---:|:---:|
-    |![button_press_block](/assets/button_press_block.png) | ![button_press_python](/assets/button_press_python.png) |
+    |![button_press_block](/assets/button_press_block.PNG) | ![button_press_python](/assets/button_press_python.PNG) |
 
     **Expand your ```if...else...``` block to include button feature.** 
 
