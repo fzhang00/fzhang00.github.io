@@ -76,7 +76,7 @@ I will leave it to you to complete. But here are some of the blocks you can use:
 
     | Block | Python |
     |:---:|:---:|
-    |![if_else](/assets/If_else.png)   |![if_else_python](/assets/if_else_python.PNG)|
+    |![if_else](/assets/If_else.PNG)   |![if_else_python](/assets/if_else_python.PNG)|
 
 - To read estimated ambient light level, use the ```light level``` block from ```Input``` class
 
