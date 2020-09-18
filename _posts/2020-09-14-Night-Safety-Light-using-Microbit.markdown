@@ -49,7 +49,6 @@ Here is short video introduing LEDs by Microbit. [YouTube Microbit LEDs](https:/
 Here is another YouTube video that talks about using LED as light sensor. Have a look if you want to know more. They also shows a nice demonstration.
 [Sparkfun using LED as light sensor](https://youtu.be/Gv6Ijam6yFY)
 
-### Buttons
 
 ## Design our program with flowchart
 
@@ -63,4 +62,51 @@ Below is an example of a simple flow chart
 
 ## Build our code based on the flowchart design
 
-I will leave it to you to complete this step. 
+I will leave it to you to complete. But here are some of the blocks you can use:
+
+- While True Loop. Grap a ```while True...do...``` block from the ```Loops``` class
+
+    | Block | Python |
+    |:---:|:---:|
+    | ![while_true](/assets/while_true.png)  |![while_python](/assets/while_python.png) |
+
+- For decision block, ie. ```if...else...```. Grab an ```if...else...``` block from ```Logic``` class
+
+    Notice that you can expand or shink the ```if...else...``` with the ```+``` or ```-``` sign. You can also find 
+
+    | Block | Python |
+    |:---:|:---:|
+    |![if_else](/assets/if_else.png)   |![if_else_python](/assets/if_else_python.png)|
+
+- To read estimated ambient light level, use the ```light level``` block from ```Input``` class
+
+    | Block | Python |
+    |:---:|:---:|
+    |![light_level_block](/assets/light_level_block.png) |![light_level_python](/assets/light_level_python.png)|
+
+- If you want to add a button to your program, use ```button (A) is pressed``` block from the ```Input``` class
+
+    | Block | Python |
+    |:---:|:---:|
+    |![button_press_block](/assets/button_press_block.png) | ![button_press_python](/assets/button_press_python.png) |
+
+    **Expand your ```if...else...``` block to include button feature.** 
+
+## Finishing Up
+
+- Find a way to put Microbit on your backpack, or wear it on your wrist. 
+- Make a short video to demonstrate your work. 
+    - Present the problem we are trying to solve
+    - What the solution is.
+
+Here are some ideas to make microbit wearable. 
+
+1. [Duck tape watch](https://makecode.microbit.org/projects/duct-tape-watch)
+
+    ![Duct tape watch](https://pxt.azureedge.net/blob/5ac0567b66ec994265b26239f6b36492afa612a6/static/mb/projects/duct-tape-watch.jpg)
+
+2. [Fabric wrist band](https://makecode.microbit.org/projects/watch/make)
+
+    ![Fabric wrist band](https://pxt.azureedge.net/blob/d017662f117ad6e46fa9b5f13dd21c44cda07295/static/mb/lessons/the-watch-1.png)
+
+
