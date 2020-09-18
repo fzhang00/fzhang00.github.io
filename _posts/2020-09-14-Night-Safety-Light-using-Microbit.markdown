@@ -55,7 +55,7 @@ Here is another YouTube video that talks about using LED as light sensor. Have a
 Before we start writing our code, we should first design our program. Creating a flow chart helps us to reduce bugs in our program, and also make it easier to spot them. We will do this step together in class. 
 
 Here are the basic element of flowchart
-![flow chart](/assets/flowchart_element.png)
+![flow chart](/assets/flowchart_element.PNG)
 
 Below is an example of a simple flow chart
 ![Project flow chart](/assets/night_light_flowchart.PNG)
