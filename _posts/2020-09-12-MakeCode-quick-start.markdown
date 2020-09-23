@@ -1,6 +1,8 @@
 ---
 layout: default
 title: MakeCode Quick Start
+tags: [makecode microbit]
+category: tutorial
 ---
 
 1. Open a Google Chrome browser and visit MakeCode micro:bit website
