@@ -97,6 +97,6 @@ Can you add light level reading and compass heading reading display with button 
 
 ## Assignment after class
 
-Now our microbit can display temperature reading. Collect a set of temperature data throughout the day and record them into a table like this:
+Now our microbit can display temperature reading. Collect a set of outdoor temperature data throughout the day and record them into a table like this. You do need to leave the Microbit outside for a while (~10 minutes) to read a stable temperature reading. 
 
 ![temperature measurement table](/assets/2020_09_20_temperature_measurement_table.PNG)
