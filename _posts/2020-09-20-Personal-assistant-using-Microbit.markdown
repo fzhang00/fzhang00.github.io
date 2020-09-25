@@ -13,8 +13,8 @@ Starting Project: https://makecode.microbit.org/_3JHRct4xEiHL
 Electronics we will be using today: 
 
 - Light sensor
-- Temperature sensor
-- Button
+- [Temperature sensor](https://youtu.be/_T4N8O9xsMA)
+- [Button](https://youtu.be/t_Qujjd_38o) 
 
 *** 
 
