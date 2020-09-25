@@ -8,6 +8,8 @@ category: projects
 
 We've created a smart night safety light using Microbit last week. Did you know that if we add a few more features to it, it can become a smart personal assistant. Today, we will add temperature monitor and output warning when temperature is low. 
 
+Starting Project: https://makecode.microbit.org/_3JHRct4xEiHL
+
 Electronics we will be using today: 
 
 - Light sensor
@@ -18,7 +20,7 @@ Electronics we will be using today:
 
 > Our Goal Today
 >
-> - Improve Night Light by adding Shake Detection
+> - Practise using function
 >
 > - Add Temperature Measurement to our Gadget
 
@@ -34,35 +36,23 @@ We also used ```if...else...``` to make a decision on when to flash LEDs.
 
 ![if_flowchart_to_code](/assets/IF_flowchart_to_Code.PNG)
 
-## Add Feature
+## Function
 
-### Improve the night light feature
+We noticed that the code for flashing LED can be used in whenever we want to flash LEDs. So to keep our code neat, let's put this trunk of code into a function. To define a function, click ```Advanced``` then ```Functions``` then ```Make a Function```. Then enter a function name, and add a number input.
 
-Did you noticed your night light is flashing all night even when you are not on the road? That's a waste of battery, isn't it? Let's make the night light feature even more context awared by adding one more condition:
+![Make function](/assets/make_function.png)
 
-LEDs will flash only when _light level is low_ **and** _we are walking (Microbit is shaked)._
-
-![flowchart_shake_condition](/assets/2020_09_20_add_shake.PNG)
-
-In Block, you can construct the condition with these block. You need to construct your own conditional statement. 
-
-![add_shake_blocks](/assets/2020_09_20_add_shake_blocks.PNG)
-
-In Python code, the condition can be written as: (update the code to your own variable names)
-
-```python
-light_level < 50 and input.is_gesture(Gesture.SHAKE)
-```
+Move your LED flashing code under this function, and call this function when you need to flash LEDs. 
 
 ***
 
 > Our Task: 
 >
-> * Update your night light design to include the shake detection
+> * Create LED flashing function, and use the function in your code. 
 
 ***
 
-### Add temperature detection
+## Add temperature detection
 
 As the temperature detection is a added feature, and it runs in parallel to the night light feature. Therefore we can append this feature after the light sensing block. We will activate this feature by pressing the button A. 
 
@@ -76,7 +66,7 @@ As the temperature detection is a added feature, and it runs in parallel to the 
 
 ***
 
-### Challenge (Optional)
+## Challenge (Optional)
 
 We have two button on the microbit, and we has use them to activate at least 3 features:
 
