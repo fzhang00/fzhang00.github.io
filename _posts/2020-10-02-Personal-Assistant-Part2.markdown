@@ -95,6 +95,8 @@ A step counter counts your steps. It's a good tool to count how much you have ex
 ***
 > Home Work: 
 > 
-> - Try out your step counter. 
-> 
+> - Complete step counter code.
+> - Try out your step counter. Does it work?  
+> - Send your code (.hex file or the shared project url) to fzhang00@gmail.com
+>
 ***
