@@ -81,7 +81,9 @@ Python programmer, use the usually MakeCode editor, and share screen when necess
 
 ## 3. Add a simple Step Counter 
 
-We would want to continue enriching our personal assistant design. Let's try to add a step counter feature. 
+We would want to continue enriching our personal assistant design. Let's try to add a step counter feature. The step counter uses gesture to detect motion. Here is a quick demo for gesture: 
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_J4Ca43W1k0yA" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 A step counter counts your steps. It's a good tool to count how much you have exercised. To do that, we will 
 
