@@ -42,7 +42,12 @@ We noticed that the code for flashing LED can be used in whenever we want to fla
 
 ![Make function](/assets/make_function.png)
 
-Move your LED flashing code under this function, and call this function when you need to flash LEDs. 
+Move your LED flashing code under this function, and call this function when you need to flash LEDs. Check these video if you are not sure how. 
+
+
+
+- Define function in Python
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j9mTu2o4RTM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ***
 
@@ -51,6 +56,7 @@ Move your LED flashing code under this function, and call this function when you
 > * Create LED flashing function, and use the function in your code. 
 
 ***
+
 
 ## Add temperature detection
 
