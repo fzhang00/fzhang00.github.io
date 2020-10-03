@@ -58,7 +58,14 @@ Our program originally follow the upper scenario. Task 1 takes most of the time 
 
 ![concurrency task scheduler](/assets/concurrency.png)
 
-How do we achieve this in our program? The technique is called event handling. To make this happen in MakeCode, we need two components: ```basic.pause()``` and event handler.  See demo program below: 
+How do we achieve this in our program? The technique is called event handling. To make this happen in MakeCode, we need two components: ```basic.pause()``` and event handler.  
+
+- At each pause() we inserted into our program, we pass the control to Microbit scheduler so it can check all other events
+- The scheduler check all the events that need to be handle, and call the event handler function we defined.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0K_eaABlBHo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+See demo program below: 
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Kjw6dJATmcCA" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
