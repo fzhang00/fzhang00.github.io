@@ -120,7 +120,16 @@ basic.forever(on_forever)
 
 ***
 
-Here is a light up project example: 
+### Get Inspired: 
+
+- A glowing Wand project example: 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_gJ91xFa97CCP" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
-
+- [Halloween Light Box](https://twitter.com/i/status/1047142712208580610) (Twitter post)
+- [Microbit Powered Pumpkin](https://twitter.com/i/status/1056902924620754944) (Twitter post)
+- [Use Microbit to control LEDs](https://twitter.com/AlwaysComputing/status/1184013874116399104?s=20) (Twitter post)
+- [Microbit Costume](https://twitter.com/microbit_edu/status/969176584312762375?s=20) (Twitter post) 
+- [Microbit controlled Scratch game](https://twitter.com/i/status/1057364597768888321) (Twitter post)
+- [A costume for Microbit?](https://twitter.com/ForToffee/status/1057578852141187072?s=20) (Twitter post)
+- [Another costume for Microbit](https://twitter.com/microbit_edu/status/1057612642842537984?s=20) (Twitter post)
+- [Microbit as eye](https://twitter.com/AgFinn/status/1180544745556365312?s=20) (Twitter post)
