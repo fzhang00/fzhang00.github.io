@@ -82,7 +82,7 @@ while True:
     serial.write_value("Y", input.acceleration(Dimension.Y))
     serial.write_value("Z", input.acceleration(Dimension.Z))
     serial.write_value("S", input.acceleration(Dimension.STRENGTH))
-    if ()
+    if ():
         basic.show_string("Shake")
     elif ():
         basic.show_string("Logo Up")
