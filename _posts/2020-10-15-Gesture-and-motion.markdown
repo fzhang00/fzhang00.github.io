@@ -30,7 +30,7 @@ Our Microbit measure acceleration in these 3 axes.
 
 To have a better sense about the axes, let's shake our microbit along each of these axis, and observe the accelerometer reading. Open the project below in your MakeCode, and download the program to your Microbit.
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_ce5agr0Vudsj" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_YU6X914AR5Yv" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 After downloading this program to your Microbit, you will see the ```Show Console Device``` button show up below the Microbit Simulator. Click that, and you will see a page like the image below. This page will show your accelerometer reading in real time. Shake your Microbit along the three axes seperatly and get a feel about accelerometer data. 
 
@@ -38,8 +38,9 @@ After downloading this program to your Microbit, you will see the ```Show Consol
 
 Here is a little summary of our observation: 
 
-* When we shake along X, we see big violent changes (from -1500 to +1500) on our X plot. Same thing goes for Y and Z. 
-* But we also see some activities on the other axes. This is because our motion is not precisely only on one axis. Motion actually happens on all axis, just more or less on certain axis. 
+* When we shake along X, we see big violent changes (from -1500 to +1500) on our X plot. 
+* We also see some activities on the other axes, but with a smaller amplitude. This is because our motion is not precisely only on one axis. Motion usually happens on all axis, just more or less on certain axis. 
+* If we add motion along all three axes to gether, we have a strength. This is what Microbit to determine **Shake** gesture. 
 
 Now let's load another project that's going to give ue the gesture indicator, and showing accelerometer reading at a slower speed:
 
