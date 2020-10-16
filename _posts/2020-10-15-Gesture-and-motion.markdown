@@ -32,6 +32,8 @@ To have a better sense about the axes, let's shake our microbit in each of these
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_ce5agr0Vudsj" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
+After downloading this program to your Microbit, you will see the ```Show Console Device``` button show up below the Microbit Simulator. Click that, and you will see a page like the image below. This page will show your accelerometer reading in real time. Shake your Microbit along the three axes seperatly and get a feel about accelerometer data. 
+
 ![Show accelerometer reading](/assets/show_accelerometer_reading.png)
 
 Here is a little summary of our observation: 
