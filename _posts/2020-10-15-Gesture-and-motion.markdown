@@ -28,7 +28,7 @@ Our Microbit measure acceleration in these 3 axes.
 
 ![Microbit Accelerometer axis](https://microbit-challenges.readthedocs.io/en/latest/_images/microbit_axes.png)
 
-To have a better sense about the axes, let's shake our microbit in each of these axis, and observe the accelerometer reading. Open this project in your MakeCode, and observe the device console 
+To have a better sense about the axes, let's shake our microbit along each of these axis, and observe the accelerometer reading. Open the project below in your MakeCode, and download the program to your Microbit.
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_ce5agr0Vudsj" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
