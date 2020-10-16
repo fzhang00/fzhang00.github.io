@@ -41,22 +41,23 @@ Here is a little summary of our observation:
 * When we shake along X, we see big violent changes (from -1500 to +1500) on our X plot. 
 * We also see some activities on the other axes, but with a smaller amplitude. This is because our motion is not precisely only on one axis. Motion usually happens on all axis, just more or less on certain axis. 
 * If we add motion along all three axes to gether, we have a strength. This is what Microbit to determine **Shake** gesture. 
+* There are lots of noise on the accelerometer reading. It keeps changing. 
 
-Now let's load another project that's going to give ue the gesture indicator, and showing accelerometer reading at a slower speed:
+Now let's load another project that's going to give ue the gesture indicator, and showing accelerometer reading at a slower speed. Now let's observe how Microbit determines gesture from the accelerometer data. 
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_7RjCyfK6J8pu" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
-Now we can observed, how Microbit determine gesture from accelerometer data. 
+A table summary on the gesture detection: 
 
 ![Determine gesture](/assets/determine_gesture.png)
 
-We can see by sensing axis senes the earth's gravity (which reads about 1000 by the accelerometer), we can determine the orientation of the Microbit. 
+We can see by checking which axis senes the earth's gravity (which reads about 1000 by the accelerometer constantly), we can determine the orientation of the Microbit. 
 
-However, data is full of noise. And we don't necessarily orient the Microbit perfectly. Therefore we need to set a number range to determine the orientation. Therefore, we will use the following table. 
+However, data is full of noise. And we don't necessarily orient the Microbit perfectly. Therefore we need to set a range to determine the orientation. We will use the following table instead of a fixed value. 
 
 ![Determine gesture](/assets/determine_gesture2.png)
 
-Now, a small in class exercise:
+Now, let's do a small in class exercise:
 
 *** 
 
@@ -65,6 +66,43 @@ Now, a small in class exercise:
 > - Modify the gesture indicator to use our own number to determine gesture
 > - For example, use ```z > -1200 and z < -800``` detect screen up gesture
 >
+
+### Block:
+
+Go to microbit.org/join
+
+![Microbit Classroom](/assets/microbit_block_classroom.PNG)
+### Python: 
+
+Start with this template: 
+
+```Python
+while True:
+    serial.write_value("x", input.acceleration(Dimension.X))
+    serial.write_value("Y", input.acceleration(Dimension.Y))
+    serial.write_value("Z", input.acceleration(Dimension.Z))
+    serial.write_value("S", input.acceleration(Dimension.STRENGTH))
+    if ()
+        basic.show_string("Shake")
+    elif ():
+        basic.show_string("Logo Up")
+    elif ():
+        basic.show_string("Logo Down")
+    elif ():
+        basic.show_string("Screen Up")
+    elif ():
+        basic.show_string("Screen Down")
+    elif ():
+        basic.show_string("Tilt Left")
+    elif ():
+        basic.show_string("Tilt Right")
+    else:
+        basic.show_icon(IconNames.HEART)
+
+def on_forever():
+    pass
+basic.forever(on_forever)
+```
 
 ***
 
