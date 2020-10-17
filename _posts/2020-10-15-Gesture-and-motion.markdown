@@ -115,7 +115,7 @@ basic.forever(on_forever)
 >   - Use any of the sensors we've learned so far: LEDs, light sensors, temperature, accelerometers, button
 >   - DIY motion sensitive light up Halloween costume
 >   - Halloween decoration
->   - Make Halloween theme Scratch game controlled by Microbit. Download Microbit program here: https://scratch.mit.edu/microbit
+>   - Make Halloween theme Scratch game controlled by Microbit. Download Microbit program here: [Microbit for Scratch](/assets/Code/scratch-microbit-1.1.0.hex)
 >   
 
 ***
