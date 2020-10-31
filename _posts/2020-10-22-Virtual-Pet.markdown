@@ -41,10 +41,50 @@ As for every project, we will first design what our pet will do, before implemen
 
 ## Implement
 
-- Python: Start from the starter project. Switch to Python 
+You can use my starter project, or create yours from scratch. 
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_LvFWCo1pHMqb" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
-- Block: head to Microbit classroom [https://microbit.org/join](https://microbit.org/join)
+1. Initialization
 
+    First step of a program is always initialization. We define some variable and assign initial value to these variable. 
 
+    ![on_start](/assets/Virtual_pet_on_start.png)
+
+2. Count down
+
+    As time passes, our pet gets hungry (health score goes lower over time). If it sits around too long, it would like to go exercise (move score goes lower over time). We will implement a count down to reduce the variable slowly until they are zero.
+
+    ![count down](/assets/Virtual_pet_countdown.png)
+
+3. Define two functions to check health score and move score
+
+    ![check_health](/assets/Virtual_pet_check_health.png)
+
+    ![check_move](/assets/Virtual_pet_check_move.png)
+
+4. Check the pet's status continuously
+
+    We've define the function to do these check. Now we just need to call these functions in loop. 
+
+    ![check pet status](/assets/Virtual_pet_check_status.png)
+
+5. Feed and exercise your pet
+
+    Now what's missing here is a way to feed your pet, and exercise it. The pet owner can do these action by pressing a button for feeding, and shaking the microbit for exercise. They can even rock the microbit side to side for dancing, or flip it up side down as gymnastic. The imagination is yours. I will leave these part to you. There is one tip. 
+
+    * Keep your event handling type function short. 
+
+    By event handling function. I mean these ```On Shake```, ```On Button A Pressed``` blocks. These blocks are best used to change variable value, and provide a very short notice, like display a icon for 200ms, or play one tone for 1/8 beat. Making notice too long will block display from other part of your program. 
+
+6. Add your creation
+    
+    What else do you think a pet would behave. Add your own creation. 
+
+7. Completion
+    
+    Complete the project by giving your pet a look. It's almost Halloween, so I make a pumpkin. 
+
+    ![Virtual pet complete](/assets/virtual_pet_complete.jpg)
+
+    
