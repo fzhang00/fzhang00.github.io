@@ -71,11 +71,25 @@ You can use my starter project, or create yours from scratch.
 
 5. Feed and exercise your pet
 
-    Now what's missing here is a way to feed your pet, and exercise it. The pet owner can do these action by pressing a button for feeding, and shaking the microbit for exercise. They can even rock the microbit side to side for dancing, or flip it up side down as gymnastic. The imagination is yours. I will leave these part to you. There is one tip. 
+    Now what's missing here is a way to feed your pet, and exercise it. 
+    
+        - When we feed the pet, health score goes up. 
+        - When we exercise the pet, move score goes up. 
+    
+     The pet owner can do these action by pressing a button for feeding, and shaking the microbit for exercise. I will leave these parts to you. There is one tip. 
 
-    * Keep your event handling type function short. 
+    *** Keep your event handling type function short. ***
 
     By event handling function. I mean these ```On Shake```, ```On Button A Pressed``` blocks. These blocks are best used to change variable value, and provide a very short notice, like display a icon for 200ms, or play one tone for 1/8 beat. Making notice too long will block display from other part of your program. 
+
+    *** Also pay attention to keep your variable no bigger than 10. *** 
+
+    This means only increase your variable if it is less than 10. 
+
+    ```Python
+    if variable < 10:
+        variable = variable + 1
+    ```
 
 6. Add your creation
     
@@ -87,4 +101,3 @@ You can use my starter project, or create yours from scratch.
 
     ![Virtual pet complete](/assets/virtual_pet_complete.jpg)
 
-    
