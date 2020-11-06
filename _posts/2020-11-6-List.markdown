@@ -1,0 +1,103 @@
+---
+layout: default
+title: Introduction to List
+tags: [makecode microbit]
+category: Intro to CS
+---
+# List
+
+List is a basic data structure that stores multiple data in an ordered manner.  
+
+![list](https://microbit-challenges.readthedocs.io/en/latest/_images/list_arrow.png)
+
+A list can store not just numbers, but also text. In MakeCode, image, sound, are all represented by test and number. Therefore we can also have a list of LED icons, or sounds. 
+
+## Defining a list
+
+Here is an example of defining a list with different data type in MakeCode Block: 
+
+![Define list](/assets/define_list.png)
+
+To define a list in Python is extremely easy: 
+
+```python
+# Define a list named list_a with a series of number
+list_a = [23, 42, 1, 0, 45, 8]
+
+# Define a list named list_txt with some text
+list_txt = ['hello', 'I', 'am', 'Jenny']
+```
+## Accessing content in a list
+
+How to read from a list? We need to use index. Index is like an address allowing you to specify which element you want to read from the list. Be careful that index starts from 0. 
+
+- In MakeCode Block, MakeCode provide some blocks for us to read and modify the list. 
+
+    ![read from list](/assets/read_from_list.png)
+
+    Note that some reading action also delete the element from the list, such as the ```get and remove``` blocks.
+
+- In Python, we use ```my_list[index]``` to access element in a list like this 
+    ```python
+    list_a[4] #output would be 45
+    list_txt[0] #output would be hello
+    ```
+    In Python, we also have read and remove action. 
+    ```python
+    list_a.pop() # Read and remove the last element from a list
+    list_a.shift() # Read and remove the first element from a list. 
+    ```
+## Modifying a list
+
+If we want to modify content of a list, just use `=` operator to assign a new value to specific element. 
+```python
+list_a[3]=136
+```
+## Adding to and removing from a list
+
+MakeCode block provides lots of block for adding, modifying and deleting element from a list. Most of them are easy to understand. We will look at a few common Python methods stead. 
+
+- Append (or Push): Adding to the end of a list. This is probably the most common method for adding to a list. 
+    ```python
+    list_a.append(100) # add 100 to the end of list_a
+    ```
+- Unshift: Adding to the beginning of a list.
+    ```python
+    list_a.unshift(199) # add 199 to the beginning of list_a
+    ```
+- Delete specific element from a list.
+    ```python
+    list_a.removeAt(index)
+    ```
+
+## Looping through a list
+
+There are two ways to loop through a list. 
+
+- Accessing each element of a list in sequence
+
+    We cannot modify the element using this method. 
+
+    ![element in list](/assets/for_element_in_list.PNG)
+
+    ```python
+    for element in list_a:
+        print(element)
+    ```
+- Accessing by index
+
+    Using this method, we can modify content of a list. For example, let's multiply each element by 2
+
+    ![for index in](/assets/for_index_from.PNG)
+
+    ```python
+    for i in range(len(list_a)):
+        list_a[i] = list_a[i]*2
+        print(list_a[i])
+    ```
+
+# Let's make a song using list
+
+
+
+
