@@ -119,14 +119,16 @@ average = sum / 10
 
 Putting them together:
 ```python
-# 1. Take 10 measurement
+# 1. Empty your list
+measurement = []
+# 2. Take 10 measurement
 for i in range(10):
     measurement.append(pins.analog_read_pin(AnalogPin.P0))
-# 2. Calculate sum
+# 3. Calculate sum
 sum = 0
 for i in range(10):
     sum = sum + measurement[i]
-# 3. Calculate average:
+# 4. Calculate average:
 average = sum/10
 ```
 
