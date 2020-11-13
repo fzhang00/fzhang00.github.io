@@ -101,7 +101,7 @@ Mean value, can also be called averaged value. The averaged value is good for pr
 
 Because data collected by sensor has noise. ie. if your measurement is normally 700, you could still occasionally get a value of 1000. That number can be called noise. One way to avoid reporting wrong measurement to user, is to take a lot of measurements, then report the average of all your measurements. 
 
-The way to calculate average is 
+Here is how we calculate an average value of some measurements. 
 
 1. Add up all of your measurements. For example, if we have 10 measurements, and we create a variable ```sum``` to hold the result of this step, then: 
 
