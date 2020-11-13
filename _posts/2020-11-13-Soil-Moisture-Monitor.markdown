@@ -7,10 +7,12 @@ category: Project
 
 # Soil Moisture Monitor
 
-We will make a soil moisture monitor gadget today. The technologies we will be using are:
+This is a multi-week project that intended to introduce the concept of IOT. This week, we will start by make a soil moisture monitor. In up coming weeks, we will explore how we can send our data to remote computer, smart phone, or even the internet through wireless communication. 
 
-- Analog pin measurement
-- Remote sensing via Radio
+Today the technologies we will be using are:
+
+- Analog signal measurement 
+- Science concept: electrical conductivity
 - Programming technique: List, Plot data
 - Math tool: averaging 
 
