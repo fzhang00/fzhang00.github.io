@@ -4,6 +4,7 @@ title: Wireless Communication
 tags: [makecode microbit, iot]
 category: Project
 ---
+# IOT
 
 We will use our soil moisture monitor project and extended it so that we can read data remotely through bluetooth (or radio). 
 
@@ -13,7 +14,7 @@ We will use our soil moisture monitor project and extended it so that we can rea
     * Microbit
     * A PC running MakeCode using a web browser
 
-# How does sensor data reach internet?
+## How does sensor data reach internet?
 
 ![how data reaches internet](/assets/iot_how_data_reach_internet.PNG)
 
@@ -23,7 +24,7 @@ Sensor data usually go through a few layer of communication to reach the interne
 - A gateway receiving data from end node, package the data, and send them to internet
 - Other users on the other end of internet receive data through software tools.  
 
-# Communication between Machines
+## Communication between Machines
 
 Today, it is essential for machine to send and receive data between each other. Just like human taking to each other, we have to have a common language and gramma. Machine talks to each other following a set of pre-defined rules. We call these rules communication protocols. Depending on the setting, different protocols are used. For example, 
 
@@ -32,13 +33,13 @@ Today, it is essential for machine to send and receive data between each other. 
 
 Microbit support UART and Bluetooth UART. We will use these blocks in today's project.
 
-# Wireless Communication
+## Wireless Communication
 
 Let's have a quick overview about the physics of wireless communication, and how to build simple code to send messages through radio in MakeCode. Don't be overwhelmed if you don't understand the physics. Most people learn these physics in senior high school or in university. Knowing electromagnetic waves are invisible energy that can carries information around is good enough. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Re3H2ISfQE8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Bluetooth
+### Bluetooth
 
 The wireless feature in Microbit can be configured as either radio, or bluetooth, but not both. 
 
@@ -53,7 +54,7 @@ To allow everyone to have some hands on experience on wireless without multiple 
 >   - You will notice that when you add Bluetooth, Radio is removed automatically. 
 >
 
-## Bluetooth Services
+### Bluetooth Services
 
 Microbit has some built-in feature to send and receive information through bluetooth. These are refered to as Bluetooth Services. 
 
@@ -61,7 +62,7 @@ Microbit has some built-in feature to send and receive information through bluet
 
 Let's add UART service. 
 
-## Pair with phone
+### Pair with phone
 
 ***Demo: How to pair microbit***
 
@@ -75,7 +76,7 @@ To pair a microbit with your phone,
 
 Paring allowing your phone to recgonize the microbit, and allows apps on the phone to talk to it. 
 
-## Connect to Microbit
+### Connect to Microbit
 
 From the Bitty Blue app, you should see the paired microbit listed. Tap the microbit name on the list, then you are connected. 
 
@@ -87,7 +88,7 @@ There are a number of events under the Bluetooth module. First let's add some in
 
 Download the code, and connect to microbit it to test it out
 
-## Send UART messages
+### Send UART messages
 
 Let's test out sending messages via UART service. 
 
@@ -103,7 +104,7 @@ Now, whenever we press button A, a new measurement will be sent to our phone.
 
 You might wonder, but I still need to press button on the microbit to see data. That doesn't let us checking our soil's water level from remote. Here is the last step. 
 
-## Get microbit to repond whenever receiving a new UART message
+### Get microbit to repond whenever receiving a new UART message
 
 To achieve true remote reading, we need to ask the Microbit to send us data when we don't physically touch it. We can do that by sending a message to the Microbit through Bluetooth UART, and program the Microbit to reply back with the newest measurement. 
 
@@ -115,7 +116,7 @@ To test this feature, we need the Serial Bluetooth Terminal app. This app is goo
 
 ![request for measurement](/assets/bluetooth_terminal_request_measurement.jpg)
 
-# Project Link
+### Project Link
 
 - Bluetooth: 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_2etJLkhkvAop" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
