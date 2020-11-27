@@ -19,9 +19,10 @@ category: Project
 ## Global Goal
 
 - Goal 3 - Good Health and Well-being
-    - 
-- Goal 13 - Climate Action.
+    Over the last 15 years, the number of childhood deaths has been cut in half. This proves that it is possible to win the fight against almost every disease. Still, we are spending an astonishing amount of money and resources on treating illnesses that are surprisingly easy to prevent. The new goal for worldwide Good Health promotes healthy lifestyles, preventive measures and modern, efficient healthcare for everyone.
 
+- Goal 13 - Climate Action.
+    Climate change is a real and undeniable threat to our entire civilization.The effects are already visible and will be catastrophic unless we act now. Through education, innovation and adherence to our climate commitments, we can make the necessary changes to protect the planet. These changes also provide huge opportunities to modernize our infrastructure which will create new jobs and promote greater prosperity across the globe.
 ## Design Proposal, due Dec 4th
 
 Provide the following information in your proposal.
