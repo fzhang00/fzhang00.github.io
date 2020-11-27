@@ -9,7 +9,7 @@ category: Project
 
 Morse code is a method used in telecommunication to encode text characters as standardized sequences of two different signal durations, called dots(.) and dashes(-) or dits and dahs.
 
-Here the sound of Morse code [here](https://www.youtube.com/watch?v=xsDk5_bktFo&ab_channel=DOCUMENTARYTUBE)
+Here is the [sound of Morse code](https://www.youtube.com/watch?v=xsDk5_bktFo&ab_channel=DOCUMENTARYTUBE) being sent through telegraph.
 
 If you are curious, here is a interesting documentory about the innovation of telegraph.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jypqHTwVQxQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
