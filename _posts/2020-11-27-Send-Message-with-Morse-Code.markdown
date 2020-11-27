@@ -14,7 +14,7 @@ Here is the [sound of Morse code](https://www.youtube.com/watch?v=xsDk5_bktFo&ab
 If you are curious, here is a interesting documentory about the innovation of telegraph.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jypqHTwVQxQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Although with the new telecom technology, Morse Code has retired. It is still fun and easy and useful to learn. You'll find people using Morse code to communicate over long distance and secretly, like using flash light to send visual Morse code in forest, or using sound or numbers to send secret messages to each other. 
+Although with the new telecom technology, Morse Code has retired. It is still fun and easy and useful to learn. You'll find people using Morse code to communicate over long distance and secretly, like using flash light to send visual Morse code at night or on sea, or using sound or numbers to send secret messages to each other. 
 
 ![morse over light](/assets/morse_code_light.PNG)
 

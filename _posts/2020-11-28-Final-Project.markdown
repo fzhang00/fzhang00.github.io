@@ -5,7 +5,7 @@ tags: [makecode microbit]
 category: Project
 ---
 
-# Final Project for 2020 Fall 编程提高班
+# Final Project for 2020 Fall
 
 ## Requirement
 
