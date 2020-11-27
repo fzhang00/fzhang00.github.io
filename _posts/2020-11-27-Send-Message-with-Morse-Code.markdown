@@ -51,7 +51,7 @@ This is a look up table to translate letter to Morse Code and back. Think of it 
 
 - Radio Interface:
     - Radio group 1
-    - On shake: send morse code message, and reset 'code' variable
+    - On shake: send morse code message, and reset 'code_to_send' variable
     - On radio receive messages: decode the message and display on LED screen
 
 - Internal variables: 
