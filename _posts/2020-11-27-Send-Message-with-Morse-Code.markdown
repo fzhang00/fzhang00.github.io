@@ -57,7 +57,7 @@ This is a look up table to translate letter to Morse Code and back. Think of it 
 - Internal variables: 
     - morse (a list) that stores Morse Code pattern from A to Z
     - character (a list) that stores Alphabet A to Z
-    - list (string): used to store '.' and '-' and ' ' input by user
+    - code_to_send (string): used to store '.' and '-' and ' ' input by user
     - received_msg (string): used to store decoded messages
 
 - A decoder function: 
